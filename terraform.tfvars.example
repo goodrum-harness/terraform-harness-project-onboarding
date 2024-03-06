@@ -1,0 +1,42 @@
+# Harness Account Setup
+# [Optional] Enter the Harness Platform URL.  Defaults to Harness SaaS URL
+# If Not passed, then the ENV HARNESS_ENDPOINT will be used or the default value of "https://app.harness.io/gateway"
+# harness_platform_url = null
+
+# [Required] Enter the Harness Platform Account Number
+# If Not passed, then the ENV HARNESS_ACCOUNT_ID will be used
+# harness_platform_account = null
+
+# [Required] Enter the Harness Platform API Key for your account
+# If Not passed, then the ENV HARNESS_PLATFORM_API_KEY will be used
+# harness_platform_key = null
+
+# [Required] Provide an organization reference ID.  Must exist before execution
+organization_id = # Required
+
+# [Required] New project identifier
+project_id = # Required
+
+# [Required] New project name
+project_name = # Required
+
+# [Required] JPMC SEAL
+seal_id = # Required
+
+# [Required] JPMC DevX Project Name
+devx_project_name = # Required
+
+# [Optional] JPMC Project Code. Defaults to DevX Project Name if not provided.
+project_code = # Required
+
+# [Required] JPMC Project Code. Defaults to DevX Project Name if not provided.
+bitbucket_url = # Required
+
+# [Required] JPMC Project Code. Defaults to DevX Project Name if not provided.
+validation_repo = # Required
+
+# [Required] JPMC Project Code. Defaults to DevX Project Name if not provided.
+aws_artifactory_url = # Required
+
+# [Required] JPMC Project Code. Defaults to DevX Project Name if not provided.
+generic_artifactory_url = # Required
